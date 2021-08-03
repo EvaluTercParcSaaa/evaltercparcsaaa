@@ -4,10 +4,11 @@ class MiFooter
     this.innerHTML = /* html */
       `<p>
         &copy; 2021
-        Ricardo Armando Machorro Reyes.
+        Saldivar Avilez Angel Armando.
       </p>`;
   }
 }
 
 customElements.define(
   "mi-footer", MiFooter);
+
