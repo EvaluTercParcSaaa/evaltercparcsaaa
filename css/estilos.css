@@ -13,14 +13,15 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
+  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#1f3841)) fixed;
 }
 
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color:
-    var(--color-header);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#1f3841)) fixed;
 }
 
 .herramientas {
