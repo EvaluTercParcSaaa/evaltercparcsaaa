@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width,
        initial-scale=1.0">
-  <title>Sesión</title>
+  <title >Sesión</title>
+  <style src="./css/estilos.css"></style>
   <!--
     Carga el núcleo de Firebase
     JS SDK
@@ -46,45 +48,50 @@
   <link rel="stylesheet"
     href="css/estilos.css">
 </head>
-<body>
- <form name="forma">
+<body class="body">
+ <form name="forma" >
     <mi-nav></mi-nav>
-    <header>
+    <header class="header">
       <h1>Sesión</h1>
       <div class="herramientas">
         <button
           type="button"
-          name="terminarSesión">
+          name="terminarSesión"
+          class="btn btn-primary">
           Terminar Sesión
         </button>
       </div>
     </header>
     <figure>
-      <img id="avatar" src=""
-        alt="Avatar">
+      <img 
+        id="avatar" 
+        src=""
+        alt="Avatar"
+        class="rounded float-start">
     </figure>
-    <p>
-      <label>
+    <p><br>
+      <span class="badge rounded-pill bg-primary">
         Email
         <output name="email">
           <mi-progreso>
           </mi-progreso>
         </output>
-      </label>
+      </span>
     </p>
     <p>
-      <label>
+      <span class="badge rounded-pill bg-primary">
         Nombre
         <output name="nombre">
           <mi-progreso>
           </mi-progreso>
         </output>
-      </label>
+      </span>
     </p>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
     src="js/CtrlSesion.js">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
