@@ -6,6 +6,7 @@
     content="width=device-width,
        initial-scale=1.0">
   <title>Alumno</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script
     src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js">
     </script>
@@ -34,45 +35,59 @@
       <div class="herramientas">
         <a href="alumnos.html">
           Cancelar</a>
-        <button>Guardar</button>
+        <button class="btn btn-primary">Guardar alumno</button>
         <button name="eliminar"
-          type="button">
+          type="button"
+          class="btn btn-danger">
           Eliminar
         </button>
       </div>
     </header>
     <p>
       <label>
-        Matricula
+        <span class="badge rounded-pill bg-primary"> Matricula </span>
         <input name="matricula"
-          type="text" required>
+          type="text" 
+          required
+          class="form-control"
+          placeholder="Matricula">
       </label>
     </p>
     <p>
       <label>
-        Nombre
+        <span class="badge rounded-pill bg-primary"> Nombre </span>
         <input name="nombre"
-          type="text" required>
+          type="text" 
+          class="form-control"
+          placeholder="Nombre"
+          required>
       </label>
     </p>
     <p>
       <label>
-        Teléfono
+        <span class="badge rounded-pill bg-primary"> Teléfono</span>
         <input name="telefono"
-          type="text" required>
+          type="text" 
+          class="form-control"
+          placeholder="Teléfono"
+          required>
       </label>
     </p>
     <p>
       <label>
-        Grupo
+        <span class="badge rounded-pill bg-primary"> Grupo </span>
         <input name="grupo"
-          type="text" required>
+          type="text" 
+          class="form-control"
+          placeholder="Grupo"
+          required>
       </label>
     </p>
     <p>
       <label>
-        Fecha
-        <input name="fecha" type="date" required>
+        <span class="badge rounded-pill bg-primary"> Fecha </span>
+        <input name="fecha"
+          type="date" required>
       </label>
     </p>
     <mi-footer></mi-footer>
@@ -80,6 +95,7 @@
   <script type="module"
     src="js/CtrlAlumno.js">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
 
