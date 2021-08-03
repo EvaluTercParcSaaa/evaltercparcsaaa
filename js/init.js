@@ -1,18 +1,10 @@
-/*  Inicializa Firebase con la
- * configuración del proyecto.
- * Revisa la configuración en tu
- * servidor de Firebase y cópiala
- * aquí sustituyendo los
- * asteriscos. Los campos deben
- * quedar igual que en tu
- * servidor. */
-// @ts-ignore
+
 firebase.initializeApp({
-    apiKey: "AIzaSyCwOmnDA5KBybeb03ERpJciZazr9XpvpwY",
-    authDomain: "bdwp801.firebaseapp.com",
-    projectId: "bdwp801",
-    storageBucket: "bdwp801.appspot.com",
-    messagingSenderId: "101167042392",
-    appId: "1:101167042392:web:d7002191e9597ac076df2d",
-    measurementId: "G-3520RE961G"
+    apiKey: "AIzaSyB8cQb2Fg3SwaVO8zhPfU9LLI-VMwr8S8I",
+    authDomain: "evaltercparcaasa.firebaseapp.com",
+    projectId: "evaltercparcaasa",
+    storageBucket: "evaltercparcaasa.appspot.com",
+    messagingSenderId: "644836101691",
+    appId: "1:644836101691:web:8a4dddf6dccc1cd43f561e",
+    measurementId: "G-5B32B1PSH7"
 });
